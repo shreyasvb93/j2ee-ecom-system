@@ -1,0 +1,82 @@
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	background: #333438;
+	color: #9FA8AB;
+}
+
+.loginFields, .loginHead, .fields, .loginBtn {
+	display: block;
+	margin: 10px auto;
+	text-align: center;
+}
+
+.loginHead, .fields, .loginBtn {
+	width: 300px;
+	max-width: 320px;
+	padding: 10px 20px;
+}
+	
+.fields {
+	border: none;
+	text-align: left;
+}
+
+.wrapper {
+	background: #CDA46F;
+}
+
+input:focus {
+	outline: none;
+	-webkit-animation: bodd 2s infinite;
+}
+
+.fields:hover {
+	padding: 10px 20px 9px 20px;
+	-webkit-animation: bodd 2s infinite;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes bodd {
+    from {border-bottom: #9FA8AB 1px solid;}
+    to {border-bottom: #CDA46F 1px solid;}
+}
+
+/* Standard syntax */
+@keyframes bodd {
+    from {border-bottom: #9FA8AB 1px solid;}
+    to {border-bottom: #CDA46F 1px solid;}
+}
+
+p {
+	font-size: 12px;
+}
+
+.loginBtn {
+	text-align: left;
+	font-weight: 900;
+    font-size: 15px;
+    background: none;
+    text-align: center;
+    border: none;
+}
+
+.loginBtn:hover {
+	-webkit-animation-fill-mode: forwards; /* Safari 4.0 - 8.0 */
+    animation: backk 1s;
+    animation-fill-mode: forwards;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes backk {
+    from {background: #333438;color:#CDA46F;}
+    to {background: #CDA46F;color:#333438;}
+}
+
+/* Standard syntax */
+@keyframes backk {
+    from {background: #333438;color:#CDA46F;}
+    to {background: #CDA46F;color:#333438;}
+}

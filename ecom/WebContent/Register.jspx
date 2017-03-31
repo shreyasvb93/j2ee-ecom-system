@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<jsp:root xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:c="http://java.sun.com/jsp/jstl/core"  version="2.0">
+	<jsp:directive.page contentType="text/html; charset=UTF-8" 
+		pageEncoding="UTF-8" session="false"/>
+	<jsp:output doctype-root-element="html"
+		doctype-public="-//W3C//DTD XHTML 1.0 Transitional//EN"
+		doctype-system="http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"
+		omit-xml-declaration="true" />
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>LOGIN | BMSRX Comics</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="StyleSheet"
+	href="${pageContext.request.contextPath}/assets/style/main.css" type="text/css"
+	title="BMSRX Comics StyleSheet" media="screen, print" />
+<script type="text/javascript"	src="${pageContext.request.contextPath}/assets/magic/script.js">;</script>
+</head>
+<body>
+<div class="wrapper">
+	<div class="loginDiv">
+		<form action="" method="post" id="loginForm">
+			<div class="loginFields">
+				<h3 class="loginHead">BMSRX Comics</h3>
+				<input name="fname" type="text" class="fields" id="fname" placeholder="First Name"/>
+				<input name="lname" type="text" class="fields" id="lname" placeholder="Last Name"/>
+				<input name="email" type="text" class="fields" id="email" placeholder="Email Address"/>
+				<input name="reemail" type="text" class="fields" id="reemail" placeholder="User Name"/>
+				<input name="aptNum" type="text" class="fields" id="aptNum" placeholder="Apt./Suite# (Optional)"/>
+				<input name="streetNum" type="text" class="fields" id="streetNum" placeholder="Street Number (Optional)"/>
+				<input name="streetName" type="text" class="fields" id="streetName" placeholder="Street Name"/>
+				<input name="city" type="text" class="fields" id="city" placeholder="City"/>
+				<input name="province" type="text" class="fields" id="province" placeholder="Province"/>
+				<input name="postalCode" type="text" class="fields" id="postalCode" placeholder="Postal Code"/>
+				<input name="country" type="text" class="fields" id="country" placeholder="Country"/>
+				<input name="phone" type="text" class="fields" id="phone" placeholder="Phone Number"/>
+				<input name="phoneOther" type="text" class="fields" id="phoneOther" placeholder="Other Phone (Optional)"/>
+				<input name="username" type="text" class="fields" id="username" placeholder="Re-enter your Email Address"/>
+				<input name="password" type="password" class="fields" id="password" placeholder="Password" />
+				<input name="repassword" type="password" class="fields" id="repassword" placeholder="Re-enter your Password" />
+				<button id="login" name="login" class="loginBtn" action="submit">REGISTER</button>
+				<p>Already have an account? <a href="#">Login here.</a></p>
+			</div>
+		</form>
+	</div>
+</div>
+</body>
+</html>
+</jsp:root>
