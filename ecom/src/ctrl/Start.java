@@ -27,6 +27,15 @@ public class Start extends HttpServlet {
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
+		
+		/// Let's makes some changes and commit + push. Make sure it works. - Rohit
+		/// Commit = save locally
+		/// Push = save changes to git.
+		/// fetch = get changes from git
+		/// pull = get changes from local
+		///NVM Later. Saved.
+		
+		
 		response.getWriter().append("Served at: ").append(request.getContextPath());
 		
 		String target = "/MainPage.jspx";
