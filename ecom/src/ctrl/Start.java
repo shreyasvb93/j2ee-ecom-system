@@ -33,7 +33,7 @@ public class Start extends HttpServlet {
 		/// Push = save changes to git.
 		/// fetch = get changes from git
 		/// pull = get changes from local
-		///NVM Later. Saved.
+		///NVM Later. Saved. Good?
 		
 		
 		response.getWriter().append("Served at: ").append(request.getContextPath());
