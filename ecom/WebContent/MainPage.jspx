@@ -23,6 +23,7 @@ BMSRX Comics
 </c:if>
 	<form  method="post">
 	<Button id= "signin" name= "signin" class="loginBtn" action="submit">Sign in</Button>
+	<input name="Search" type="text" class="fields" id="SearchBar" placeholder="Search"/>
 	</form>
 	</div>
 </body>
